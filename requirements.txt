@@ -9,10 +9,13 @@ requests
 scikit-image
 scipy
 tb-nightly
-torch>=1.7.1
+torch>=2.9.0
 torchvision
 tqdm
 yapf
 lpips
 gdown # supports downloading the large file from Google Drive
 ffmpeg-python
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
